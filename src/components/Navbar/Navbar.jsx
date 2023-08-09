@@ -1,9 +1,9 @@
+import { motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import { navLinks } from "../../Data";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
+import { navLinks } from "../../Data";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
-import { motion } from "framer-motion";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
@@ -32,7 +32,7 @@ const Navbar = () => {
               onClick={() => setToggle(true)}
             />
             <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              Skillex
+              LearnWithsowmik
             </div>
           </div>
           <div className="sm:flex items-center hidden">
